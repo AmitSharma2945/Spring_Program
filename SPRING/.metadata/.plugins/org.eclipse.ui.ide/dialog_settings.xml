@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\My JAVA\SPRING"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="539"/>
+		<item key="DIALOG_Y_ORIGIN" value="116"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="402"/>
+		<item key="TOGGLE_SELECTED" value="true"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="380"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

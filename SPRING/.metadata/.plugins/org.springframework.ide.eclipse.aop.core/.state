@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Spring-Test19-Depandency-check"/>
+<aop-project name="Spring-36-Test-BooT-LayeardApplication-Emp"/>
+<aop-project name="Spring-Test28-LMInjection-Problem"/>
+<aop-project name="Spring-Test06-LayeredApplicationEMP"/>
+<aop-project name="Spring-Test18-NestedBeanFactories"/>
+<aop-project name="Spring-Test24-Language-EventHandling"/>
+<aop-project name="Spring-Test21-Layered-PropertiesFileUse"/>
+<aop-project name="Spring-Test20-Container-ApplicationContext"/>
+<aop-project name="Spring_Test04-looselyCupling"/>
+<aop-project name="Spring-Test37-WebApplication_SearchHotal"/>
+<aop-project name="Spring-Test17-BeanWiring-ByName"/>
+<aop-project name="Spring-Test09-BIKE"/>
+<aop-project name="Spring-Test32-PropertyEditor"/>
+<aop-project name="Spring-Test30-MathodReplacer"/>
+<aop-project name="Spring-Test16-BeanWirng"/>
+<aop-project name="Spring-Test23-Language-Spring-properties"/>
+<aop-project name="Spring-Test12-Lookup-IDREF"/>
+<aop-project name="Spring-Test27-AwareInjection"/>
+<aop-project name="Spring-Test08-NullInjection"/>
+<aop-project name="Spring-Test10-CollectionMerging"/>
+<aop-project name="Spring-Test35-Layered-100prPropertiesFileUse"/>
+<aop-project name="Spring-Test26-ServiceLocator-FactoryBean"/>
+<aop-project name="Spring-Test05-LayeredApplication"/>
+<aop-project name="Spring-Test36-XML-JdbcTemplete"/>
+<aop-project name="Spring-Test25-BeanCycle"/>
+<aop-project name="Spring-Test13-FactoryMethod"/>
+<aop-project name="Spring-37-Test-BooT-Layeard-Emp2-PRofile"/>
+</aop-reference-model>

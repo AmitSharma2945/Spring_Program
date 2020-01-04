@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Spring-Web-SearchHotal&apos; to &apos;Spring-Test37-WebApplication_SearchHotal&apos;&#x0D;&#x0A;- Original element: &apos;Spring-Web-SearchHotal&apos;&#x0D;&#x0A;- Renamed element: &apos;Spring-Web-SearchHotal&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Spring-Web-SearchHotal&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Spring-Web-SearchHotal" name="Spring-Test37-WebApplication_SearchHotal" references="true" stamp="1569868469278" version="1.0"/>
+</session>

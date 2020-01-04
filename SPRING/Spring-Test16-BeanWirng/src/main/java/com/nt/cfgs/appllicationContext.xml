@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="event" class="com.nt.beans.Tournament">
+<property name="games">
+<array>
+<value>kabadi</value>
+<value>Sports</value>
+<value>Cricket</value>
+<value>Golf</value>
+</array>
+</property>
+</bean>
+
+<bean id="tour" class="com.nt.beans.Travling">
+</bean>
+</beans>

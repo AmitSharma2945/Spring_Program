@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="ds" class="oracle.jdbc.pool.OracleDataSource">
+    <property name="dataSourceName" value="oracle.jdbc.driver.OracleDriver"/>
+    <property name="URL" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+    <property name="user" value="system"/>
+    <property name="password" value="manager"/>
+</bean>
+
+ <bean id="empDAO" class="com.nt.dao.EmployeeDAOImpl">
+ <constructor-arg ref="ds"></constructor-arg>
+ </bean>
+ 
+ <bean id="service" class="com.nt.service.EmployeeServiceImpl">
+ <constructor-arg ref="empDAO"/>
+ </bean>
+ 
+ <bean id="controller" class="com.nt.controller.MainController">
+ <constructor-arg ref="service"></constructor-arg>
+ </bean>
+ 
+</beans>

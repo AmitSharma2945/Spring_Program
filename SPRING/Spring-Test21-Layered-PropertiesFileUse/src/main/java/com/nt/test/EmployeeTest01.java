@@ -1,0 +1,62 @@
+package com.nt.test;
+
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.FileSystemResource;
+
+import com.nt.controller.MainController;
+import com.nt.vo.EmployeeVO;
+
+public class EmployeeTest01 {
+
+	public static void main(String[] args) {
+		String empNo = null;
+		String empName = null;
+		String addrs = null;
+		String basciSalary = null;
+		BeanFactory Factory = null;
+		String result = null;
+		ApplicationContext ac=null;
+		 
+		// get values from end user
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Employee empNO..");
+		empNo = sc.next();
+		System.out.println("Enter Employee Name...");
+		empName = sc.next();
+		System.out.println("Enter Employee addrs...");
+		addrs = sc.next();
+		System.out.println("Enter Employee salary...");
+		basciSalary = sc.next();
+
+		// get bean Factory obj
+		try {
+
+			EmployeeVO vo = new EmployeeVO();
+			vo.setEmpid(empNo);
+			vo.setEmpName(empName);
+			vo.setEmpAddrs(addrs);
+			vo.setBasicSalary(basciSalary);
+
+			// cotainer create
+			//Factory = new XmlBeanFactory(new ClassPathResource("com/nt/cfgs/applicationContext.xml"));
+    	 ac=new FileSystemXmlApplicationContext("src/main/java/com/nt/cfgs/applicationContext.xml"); 
+			MainController controller = ac.getBean("controller", MainController.class);
+
+			result = controller.ProcessEmployee(vo);
+			System.out.println(result);
+
+		} catch (SQLException se) {
+			se.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("internal Problemm " + e);
+		}
+	}
+}

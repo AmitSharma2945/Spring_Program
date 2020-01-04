@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-dependency-check="objects" xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+
+<bean id="India" class="com.nt.beans.India">
+ <property name="countryId" value="91"/>
+ <property name="nickName" value="Bhart"/>
+ <property name="area" value="NorthEast"/>
+ <property name="size" value="55505.22"/>
+ <property  name="kashmir" ref="st_kashmir"/>
+ </bean>
+
+<bean id="st_kashmir" class="com.nt.beans.Kashmir">
+<property name="name" value="shreeNagar"/>
+ <property name="type" value="Jammu"/>
+ <property name="area" value="India"/>
+<property name="dhara" value="370"/>
+
+</bean>
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-merge="true"  xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+<bean id="base1styear" class="com.nt.beans.EnngCourse" abstract="true">
+<property name="course">
+<list>
+<value>Communication</value>
+<value>M1</value>
+<value>Computer</value>
+</list>
+</property>
+</bean>
+
+<bean id="CSEst1Year" class="com.nt.beans.EnngCourse" parent="base1styear">
+<property name="course">
+<list >
+<value>EEE</value>
+<value>ED</value>
+</list>
+
+
+
+</property>
+
+
+
+
+</bean>
+
+
+
+</beans>
+

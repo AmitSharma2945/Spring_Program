@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\My JAVA\SPRING\Spring-Test33-AutoWired"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test32-PropertyEditor"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test31-BeanPostProcess-BPP"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test30-MathodReplacer"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test28-LMInjection-Problem"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test27-AwareInjection"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test26-ServiceLocator-FactoryBean"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test25-BeanCycle"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test24-Language-EventHandling"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test08-Collection-Injection"/>
+			<item value="E:\My JAVA\SPRING\Spring-Test16-BeanWirng"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="nit.Spring_Test34_100prCoding"/>
+			<item value="nit.Spring_"/>
+			<item value="nit.Spring_Test29_LMInjection_solution"/>
+			<item value="com.nt.test"/>
+			<item value="NIT.Spring_Test19_Depandency_check"/>
+			<item value="NIT.Spring_Test18_NestedBeanFactories"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+			<item value="NIT"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spring-Test34-100prCoding"/>
+			<item value="Spring-Test33-AutoWired"/>
+			<item value="Spring-"/>
+			<item value="Spring-Test31-BeanPostProcess--BPP"/>
+			<item value="Spring-Test31-BeanPostProcess-BPP"/>
+			<item value="Spring-Test30-MathodReplacer"/>
+			<item value="Spring-Test29-LMInjection-solution"/>
+			<item value="Spring-Test28-LMInjection-Problem"/>
+			<item value="Spring-Test27-AwareInjection"/>
+			<item value="Spring-Test26-ServiceLocator-FactoryBean"/>
+			<item value="Spring-Test25-BeanCycle"/>
+			<item value="Spring-23-Language-Spring-properties"/>
+			<item value="Spring-Test20-Container-ApplicationContext"/>
+			<item value="Spring-Test19-Depandency-check"/>
+			<item value="Spring-Test18-NestedBeanFactories"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

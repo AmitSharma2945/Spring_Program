@@ -1,0 +1,21 @@
+spring: 
+ profiles:
+    active:dev
+--- 
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: manager
+    type: org.apache.commons.dbcp2.BasicDataSource
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+--- 
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: manager
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system

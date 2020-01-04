@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;pom.xml&apos; to &apos;Spring-Test31-BeanPostProcess-BPP&apos;&#x0D;&#x0A;- Original project: &apos;Spring-Test29-LMInjection-solution&apos;&#x0D;&#x0A;- Destination element: &apos;Spring-Test31-BeanPostProcess-BPP&apos;&#x0D;&#x0A;- Original element: &apos;pom.xml&apos;" description="Copy file" destination="=Spring-Test31-BeanPostProcess-BPP" element1="pom.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1567271662879" units="0" version="1.0"/>
+</session>

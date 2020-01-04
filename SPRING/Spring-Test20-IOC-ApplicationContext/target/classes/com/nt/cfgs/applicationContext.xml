@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="tp" class="com.nt.beans.TourPlane" >
+		<property name="places">
+			<list>
+				<value>delhi</value>
+				<value>Mumbai</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="tp2" class="com.nt.beans.TourPlane" primary="true">
+		<property name="places">
+			<list>
+				<value>Manali</value>
+				<value>shimal</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="tp3" class="com.nt.beans.TourPlane" >
+		<property name="places">
+			<list>
+				<value>Rajisthan</value>
+				<value>jaipur</value>
+			</list>
+		</property>
+	</bean>
+	
+ <bean id="agent" class="com.nt.beans.TravelAgent" autowire="constructor">
+
+</bean>
+
+ 
+ 
+</beans>

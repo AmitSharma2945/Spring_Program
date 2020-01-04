@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Oct/2019:01:35:54 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:36:38 +0530] "GET /Spring-Web-SearchHotal/ HTTP/1.1" 200 435
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:36:42 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:37:51 +0530] "GET /Spring-Web-SearchHotal/controller?location=MUMBAI HTTP/1.1" 500 5377
+127.0.0.1 - - [04/Oct/2019:01:42:28 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:42:32 +0530] "GET /Spring-Web-SearchHotal/ HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:42:56 +0530] "GET /Spring-Web-SearchHotal/controller?location=MUMBAI HTTP/1.1" 500 5379
+127.0.0.1 - - [04/Oct/2019:01:45:39 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:45:40 +0530] "GET /Spring-Web-SearchHotal/ HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:45:46 +0530] "GET /Spring-Web-SearchHotal/controller?location=DUBAI HTTP/1.1" 500 5383
+0:0:0:0:0:0:0:1 - - [04/Oct/2019:01:46:52 +0530] "GET /Spring-Web-SearchHotal/controller?location=CHANNAI HTTP/1.1" 500 5383

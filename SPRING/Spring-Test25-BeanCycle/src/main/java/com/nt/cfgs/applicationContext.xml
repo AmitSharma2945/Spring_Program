@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="bc" class="com.nt.beans.BeanCycle" init-method="myinit" destroy-method="Destroy">
+<property name="name" value="sharma.."/>
+<property name="age" value="8"/>
+<property name="addrs" value="indore.."/>
+<property name="salary" value="25000"/>
+
+</bean>
+
+</beans>

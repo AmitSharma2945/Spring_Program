@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2858150868.index
+\Spring-Test11-Lookup-IDREF\src\main\java
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2911881613.index
+\Spring-Test07-Collection_Injection\src\main\resources
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\170337923.index
+\Spring-Test26-ServiceLocator-FactoryBean\src\main\java
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1503137288.index
+\Spring-Test07-Collection-Injection\src\main\java
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3640573365.index
+\Spring-Test31-BeanPostProcess--BPP\src\main\resources
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2246123804.index
+\Spring-Test37-WebApplication_SearchHotal\src\main\resources
+E:\My JAVA\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1786747304.index
+\Spring-Test26-ServiceLocator-FactoryBean\src\main\resources

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="ph" class="com.nt.beans.PersonProfile">
+    <property name="pid" value="101"/>
+    <property name="pname" value="raju"/>
+    <property name="addrs" value="hyd"/>
+    <property name="dob" value="10/20/2011"/>
+    <property name="doj" value="10/22/2012"/>
+    <property name="dom">
+    <null></null>
+    
+    </property>          
+  </bean>
+    
+    
+    
+    
+    
+</beans>

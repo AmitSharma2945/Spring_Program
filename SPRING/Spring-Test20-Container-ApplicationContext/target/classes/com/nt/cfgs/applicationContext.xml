@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  default-lazy-init="default" xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <bean id="India" class="com.nt.beans.India" scope="singleton">
+ <property name="countryCode" value="91"/>
+ <property name="flage" value="Tiranga"/>
+ <property name="countryForce" value="Arrmy"/>
+ <property name="pradhanMantri" value="NarendraModi"/>
+ <!-- <property name="travlingPlaces" ref="travling"/>
+  --> </bean>
+
+<bean id="travling" class="com.nt.beans.TravlingPlaces" scope="prototype">
+<property name="indore" value="Rajvada"/>
+<property name="chainnai" value="Tirupati"/>
+<property name="agara" value="shivMahal"/>
+<property name="ayodhya" value="RamMandir"/>
+</bean>
+
+</beans>
